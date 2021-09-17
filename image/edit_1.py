@@ -14,12 +14,12 @@ async def bright(client, message):
         edit_img_loc = "./DOWNLOADS" + "/" + userid + "/" + "brightness.jpg"
         if not message.reply_to_message.empty:
             msg = await message.reply_to_message.reply_text(
-                "Downloading image", quote=True
+                "Bro Downloading image 🖼️....", quote=True
             )
             a = await client.download_media(
                 message=message.reply_to_message, file_name=download_location
             )
-            await msg.edit("Processing Image...")
+            await msg.edit("Processing Image 🖼️...")
             image = Image.open(a)
             brightness = ImageEnhance.Brightness(image)
             brightness.enhance(1.5).save(edit_img_loc)
@@ -27,7 +27,7 @@ async def bright(client, message):
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
-            await message.reply_text("Why did you delete that??")
+            await message.reply_text("Why did you delete that 😠??")
         try:
             shutil.rmtree(f"./DOWNLOADS/{userid}")
         except Exception:
@@ -39,7 +39,7 @@ async def bright(client, message):
         else:
             try:
                 await message.reply_to_message.reply_text(
-                    "Something went wrong!", quote=True
+                    "Something went wrong 😔!", quote=True
                 )
             except Exception:
                 return
@@ -54,12 +54,12 @@ async def mix(client, message):
         edit_img_loc = "./DOWNLOADS" + "/" + userid + "/" + "mix.jpg"
         if not message.reply_to_message.empty:
             msg = await message.reply_to_message.reply_text(
-                "Downloading image", quote=True
+                "Bro Downloading image 🖼️....", quote=True
             )
             a = await client.download_media(
                 message=message.reply_to_message, file_name=download_location
             )
-            await msg.edit("Processing Image...")
+            await msg.edit("Processing Image 🖼️...")
             image = Image.open(a)
             red, green, blue = image.split()
             new_image = Image.merge("RGB", (green, red, blue))
@@ -68,7 +68,7 @@ async def mix(client, message):
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
-            await message.reply_text("Why did you delete that??")
+            await message.reply_text("Why did you delete that 😠??")
         try:
             shutil.rmtree(f"./DOWNLOADS/{userid}")
         except Exception:
@@ -80,7 +80,7 @@ async def mix(client, message):
         else:
             try:
                 await message.reply_to_message.reply_text(
-                    "Something went wrong!", quote=True
+                    "Something went wrong 😔!", quote=True
                 )
             except Exception:
                 return
@@ -95,12 +95,12 @@ async def black_white(client, message):
         edit_img_loc = "./DOWNLOADS" + "/" + userid + "/" + "black_white.jpg"
         if not message.reply_to_message.empty:
             msg = await message.reply_to_message.reply_text(
-                "Downloading image", quote=True
+                "Bro Downloading image 🖼️....", quote=True
             )
             a = await client.download_media(
                 message=message.reply_to_message, file_name=download_location
             )
-            await msg.edit("Processing Image...")
+            await msg.edit("Processing Image 🖼️...")
             image_file = cv2.imread(a)
             grayImage = cv2.cvtColor(image_file, cv2.COLOR_BGR2GRAY)
             cv2.imwrite(edit_img_loc, grayImage)
@@ -108,7 +108,7 @@ async def black_white(client, message):
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
-            await message.reply_text("Why did you delete that??")
+            await message.reply_text("Why did you delete that 😠??")
         try:
             shutil.rmtree(f"./DOWNLOADS/{userid}")
         except Exception:
@@ -120,7 +120,7 @@ async def black_white(client, message):
         else:
             try:
                 await message.reply_to_message.reply_text(
-                    "Something went wrong!", quote=True
+                    "Something went wrong 😔!", quote=True
                 )
             except Exception:
                 return
@@ -135,12 +135,12 @@ async def normal_blur(client, message):
         edit_img_loc = "./DOWNLOADS" + "/" + userid + "/" + "BlurImage.jpg"
         if not message.reply_to_message.empty:
             msg = await message.reply_to_message.reply_text(
-                "Downloading image", quote=True
+                "Bro Downloading image 🖼️....", quote=True
             )
             a = await client.download_media(
                 message=message.reply_to_message, file_name=download_location
             )
-            await msg.edit("Processing Image...")
+            await msg.edit("Processing Image 🖼️...")
             OriImage = Image.open(a)
             blurImage = OriImage.filter(ImageFilter.BLUR)
             blurImage.save(edit_img_loc)
@@ -148,7 +148,7 @@ async def normal_blur(client, message):
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
-            await message.reply_text("Why did you delete that??")
+            await message.reply_text("Why did you delete that 😠??")
         try:
             shutil.rmtree(f"./DOWNLOADS/{userid}")
         except Exception:
@@ -160,7 +160,7 @@ async def normal_blur(client, message):
         else:
             try:
                 await message.reply_to_message.reply_text(
-                    "Something went wrong!", quote=True
+                    "Something went wrong 😔!", quote=True
                 )
             except Exception:
                 return
@@ -175,12 +175,12 @@ async def g_blur(client, message):
         edit_img_loc = "./DOWNLOADS" + "/" + userid + "/" + "gaussian_blur.jpg"
         if not message.reply_to_message.empty:
             msg = await message.reply_to_message.reply_text(
-                "Downloading image", quote=True
+                "Bro Downloading image 🖼️....", quote=True
             )
             a = await client.download_media(
                 message=message.reply_to_message, file_name=download_location
             )
-            await msg.edit("Processing Image...")
+            await msg.edit("Processing Image 🖼️...")
             im1 = Image.open(a)
             im2 = im1.filter(ImageFilter.GaussianBlur(radius=5))
             im2.save(edit_img_loc)
@@ -188,7 +188,7 @@ async def g_blur(client, message):
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
-            await message.reply_text("Why did you delete that??")
+            await message.reply_text("Why did you delete that 😠??")
         try:
             shutil.rmtree(f"./DOWNLOADS/{userid}")
         except Exception:
@@ -200,7 +200,7 @@ async def g_blur(client, message):
         else:
             try:
                 await message.reply_to_message.reply_text(
-                    "Something went wrong!", quote=True
+                    "Something went wrong 😔!", quote=True
                 )
             except Exception:
                 return
@@ -215,12 +215,12 @@ async def box_blur(client, message):
         edit_img_loc = "./DOWNLOADS" + "/" + userid + "/" + "box_blur.jpg"
         if not message.reply_to_message.empty:
             msg = await message.reply_to_message.reply_text(
-                "Downloading image", quote=True
+                "Bro Downloading image 🖼️....", quote=True
             )
             a = await client.download_media(
                 message=message.reply_to_message, file_name=download_location
             )
-            await msg.edit("Processing Image...")
+            await msg.edit("Processing Image 🖼️...")
             im1 = Image.open(a)
             im2 = im1.filter(ImageFilter.BoxBlur(0))
             im2.save(edit_img_loc)
@@ -228,7 +228,7 @@ async def box_blur(client, message):
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
-            await message.reply_text("Why did you delete that??")
+            await message.reply_text("Why did you delete that 😠??")
         try:
             shutil.rmtree(f"./DOWNLOADS/{userid}")
         except Exception:
@@ -240,7 +240,7 @@ async def box_blur(client, message):
         else:
             try:
                 await message.reply_to_message.reply_text(
-                    "Something went wrong!", quote=True
+                    "Something went wrong 😔!", quote=True
                 )
             except Exception:
                 return
