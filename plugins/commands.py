@@ -18,8 +18,8 @@ async def start(client: Client, message: Message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "🖥️ HOW TO OWN 🖥️",
-                            url=f"{LINK}",
+                            "PRIMER ROOM SERIES UPDATES MOVIES🍿🍿",
+                            url=f"https://t.me/PRIMER_ROOM",
                         )
                     ],
                 ]
@@ -44,8 +44,8 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "🖥️ HOW TO OWN 🖥️",
-                            url=f"{LINK}",
+                            "PRIMER ROOM SERIES UPDATES MOVIES🍿🍿",
+                            url=f"https://t.me/PRIMER_ROOM",
                         )
                     ],
                 ]
@@ -70,8 +70,8 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "🖥️ HOW TO OWN 🖥️",
-                            url=f"{LINK}",
+                            "PRIMER ROOM SERIES UPDATES MOVIES🍿🍿",
+                            url=f"https://t.me/PRIMER_ROOM",
                         )
                     ],
                 ]
