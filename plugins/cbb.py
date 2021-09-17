@@ -112,7 +112,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🖥️ HOW TO OWN 🖥️", url=f"{LINK}"
+                        "PRIMER ROOM SERIES UPDATES MOVIES🍿🍿", url=f"https://t.me/PRIMER_ROOM"
                     )
                 ],
             ]
@@ -132,7 +132,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🖥️ HOW TO OWN 🖥️", url=f"{LINK}"
+                        "PRIMER ROOM SERIES UPDATES MOVIES🍿🍿", url=f"https://t.me/PRIMER_ROOM"
                     )
                 ],
             ]
@@ -149,7 +149,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🖥️ HOW TO OWN 🖥️", url=f"{LINK}"
+                        "PRIMER ROOM SERIES UPDATES MOVIES🍿🍿", url=f"https://t.me/PRIMER_ROOM"
                     )
                 ],
             ]
