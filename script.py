@@ -6,7 +6,7 @@ I'm a ᑭᑕᖇ Image Editor Bot which Supports various modes
 
 For more click help....
 
-Made With ❤️ By @PRIMER_ROOM🔥</b>"""
+Made With ❤️ By <a href="https://t.me/PRIMER_ROOM">ᑭᖇᎥᗰᗴᖇ ᖇᗝᗝᗰ</a>🔥</b>"""
     HELP_MSG = """Hai, Follow these Steps..
 
 <code>🌀 Send me any Image to Edit..</code>
