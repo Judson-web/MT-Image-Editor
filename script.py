@@ -24,5 +24,3 @@ For more click help....</b>"""
 "⭕️Language : Python3
 
 "⭕️Library : Pyrogram 1.0.7 (https://docs.pyrogram.org/) 
-
-"⭕️🎥 sᴛᴏʀʏ ᴛɪᴍᴇ ᴄʜᴀɴɴᴇʟ🎥 : https://t.me/storytym
