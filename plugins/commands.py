@@ -15,7 +15,7 @@ async def start(client: Client, message: Message):
                     [
                         InlineKeyboardButton("HELP", callback_data="help_data"),
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                        InlineKeyboardButton("Owner"), url=f"https://t.me/PRIMER_ROOM",
+                       
                     ],
                     [
                         InlineKeyboardButton(
