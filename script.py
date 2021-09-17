@@ -20,12 +20,12 @@ For more click help....</b>"""
 © @PRIMER_ROOM"""
     ABOUT_MSG = """⭕️<b>My Name : Image Editor</b>
 
-⭕️Creater : @Beluga100000 
+"⭕️Creater : @Beluga100000 
 
-⭕️Credits : Everyone in this journey ☺️
+"⭕️Credits : Everyone in this journey ☺️
 
-⭕️Language : Python3
+"⭕️Language : Python3
 
-⭕️Library : Pyrogram 1.0.7 (https://docs.pyrogram.org/) 
+"⭕️Library : Pyrogram 1.0.7 (https://docs.pyrogram.org/) 
 
-⭕️🎥 sᴛᴏʀʏ ᴛɪᴍᴇ ᴄʜᴀɴɴᴇʟ🎥 : https://t.me/storytym
+"⭕️🎥 sᴛᴏʀʏ ᴛɪᴍᴇ ᴄʜᴀɴɴᴇʟ🎥 : https://t.me/storytym
