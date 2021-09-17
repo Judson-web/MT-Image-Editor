@@ -4,9 +4,7 @@ class script(object):
 
 I'm a Image Editor Bot which Supports various modes
 
-For more click help....</b>"""
-   
- "ᗴᗪᎥ丅ᗴᗪ ᗷƳ: @Beluga100000"
+For more click help....</b>""                                                      ᗴᗪᎥ丅ᗴᗪ ᗷƳ: @Beluga100000"
     
     HELP_MSG = """Hai, Follow these Steps..
 
