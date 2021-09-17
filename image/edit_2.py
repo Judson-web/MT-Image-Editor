@@ -20,7 +20,7 @@ async def circle_with_bg(client, message):
             a = await client.download_media(
                 message=message.reply_to_message, file_name=download_location
             )
-            await msg.edit("Processing Image...")
+            await msg.edit("Processing Your Image...")
             img = Image.open(a).convert("RGB")
             npImage = np.array(img)
             h, w = img.size
@@ -34,7 +34,7 @@ async def circle_with_bg(client, message):
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
-            await message.reply_text("Why did you delete that??")
+            await message.reply_text("Bro Why did you delete that??")
         try:
             shutil.rmtree(f"./DOWNLOADS/{userid}")
         except Exception:
@@ -46,7 +46,7 @@ async def circle_with_bg(client, message):
         else:
             try:
                 await message.reply_to_message.reply_text(
-                    "Something went wrong!", quote=True
+                    "Oo Something went wrong!", quote=True
                 )
             except Exception:
                 return
@@ -61,12 +61,12 @@ async def circle_without_bg(client, message):
         edit_img_loc = "./DOWNLOADS" + "/" + userid + "/" + "circle.png"
         if not message.reply_to_message.empty:
             msg = await message.reply_to_message.reply_text(
-                "Downloading image", quote=True
+                "Hmm Downloading image", quote=True
             )
             a = await client.download_media(
                 message=message.reply_to_message, file_name=download_location
             )
-            await msg.edit("Processing Image...")
+            await msg.edit("Processing Your Image...")
             img = Image.open(a).convert("RGB")
             npImage = np.array(img)
             h, w = img.size
@@ -80,7 +80,7 @@ async def circle_without_bg(client, message):
             await message.reply_to_message.reply_document(edit_img_loc, quote=True)
             await msg.delete()
         else:
-            await message.reply_text("Why did you delete that??")
+            await message.reply_text("Bro Why did you delete that??")
         try:
             shutil.rmtree(f"./DOWNLOADS/{userid}")
         except Exception:
