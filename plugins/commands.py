@@ -42,7 +42,6 @@ async def help(client, message):
                     [
                         InlineKeyboardButton("BACK", callback_data="start_data"),
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                        InlineKeyboardButton("Owner"), url=f"https://t.me/PRIMER_ROOM",
                     ],
                     [
                         InlineKeyboardButton(
@@ -69,7 +68,6 @@ async def about(client, message):
                     [
                         InlineKeyboardButton("BACK", callback_data="help_data"),
                         InlineKeyboardButton("START", callback_data="start_data"),
-                        InlineKeyboardButton("Owner"), url=f"https://t.me/PRIMER_ROOM",
                     ],
                     [
                         InlineKeyboardButton(
