@@ -17,10 +17,9 @@ For more click help....</b>"""
 © @Beluga100000"""
     ABOUT_MSG = """⭕️<b>My Name : Image Editor</b>
 
-"⭕️Creater : @Beluga100000 
+⭕️<b>Language :</b> <code>Python3</code>
 
-"⭕️Credits : Everyone in this journey ☺️
+⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a>
 
-"⭕️Language : Python3
-
-"⭕️Library : Pyrogram 1.0.7 (https://docs.pyrogram.org/) 
+⭕️<b>Source Code :</b> 👉 <a href='https://t.me/NOKIERUNNOIPPKITTUM'>Click Here</a>"""
+    
