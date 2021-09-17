@@ -17,7 +17,7 @@ Made With ❤️ By @PRIMER_ROOM🔥</b>"""
 
 
 © @Beluga100000"""
-    ABOUT_MSG = """⭕️<b>My Name : Image Editor</b>
+    ABOUT_MSG = """⭕️<b>My Name : ᑭᑕᖇ Image Editor</b>
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
